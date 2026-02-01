@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Request a Unit — Pickton Storage</title>
+  <meta name="description" content="Request a storage unit at Pickton Storage in Pickton, TX." />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="wrap nav">
+      <a class="brand" href="./index.html">
+        <div class="badge" aria-hidden="true"></div>
+        <div>
+          <h1>Pickton Storage</h1>
+          <small>9274 Farm Road 269 S • Pickton, TX</small>
+        </div>
+      </a>
+      <nav class="links" aria-label="Primary">
+        <a href="./units.html">Units & Pricing</a>
+        <a href="./porch-sittin.html">Porch Sittin</a>
+        <a href="./shop.html">Shop</a>
+        <a href="./contact.html">Contact</a>
+        <a class="primary" href="./signup.html">Request a Unit</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="wrap">
+      <div class="paper page">
+        <h2>Request a Storage Unit</h2>
+        <p>Fill this out and we’ll follow up to confirm availability and next steps.</p>
+
+        <p class="notice">
+          Prefer Facebook? You can also message us at
+          <a href="https://facebook.com/picktonstorage" target="_blank" rel="noopener"><strong>Facebook.com/picktonstorage</strong></a>.
+        </p>
+
+        <!-- Netlify Forms compatible. If you host on Netlify, submissions can be emailed to the owner. -->
+        <form class="form" name="unit-request" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="unit-request" />
+
+          <div>
+            <label for="name">Full name</label>
+            <input id="name" name="name" autocomplete="name" required />
+          </div>
+
+          <div>
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" autocomplete="tel" required />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+
+          <div>
+            <label for="movein">Move-in date</label>
+            <input id="movein" name="move_in_date" type="date" />
+          </div>
+
+          <div class="full">
+            <label for="notes">Anything else we should know?</label>
+            <textarea id="notes" name="notes" placeholder="Example: I need access on weekends, storing a couch + boxes, etc."></textarea>
+          </div>
+
+          <div class="full">
+            <button class="btn primary" type="submit">Send Request</button>
+            <a class="btn" href="mailto:1mscottexas@gmail.com?subject=Pickton%20Storage%20Unit%20Request">Email instead</a>
+          </div>
+        </form>
+
+        <p class="fine" style="margin-top:14px;color:var(--muted)">
+          By submitting, you’re requesting information/availability. We’ll contact you to confirm details.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="fine">
+        © <span id="y"></span> Pickton Storage • 9274 Farm Road 269 S, Pickton, TX
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

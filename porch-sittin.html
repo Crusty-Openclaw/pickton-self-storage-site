@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Porch Sittin — Pickton Storage</title>
+  <meta name="description" content="Porch Sittin — a daily short story from Pickton Farms." />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="wrap nav">
+      <a class="brand" href="./index.html">
+        <div class="badge" aria-hidden="true"></div>
+        <div>
+          <h1>Pickton Storage</h1>
+          <small>Porch Sittin • daily stories from Pickton Farms</small>
+        </div>
+      </a>
+      <nav class="links" aria-label="Primary">
+        <a href="./units.html">Units & Pricing</a>
+        <a href="./porch-sittin.html">Porch Sittin</a>
+        <a href="./shop.html">Shop</a>
+        <a href="./contact.html">Contact</a>
+        <a class="primary" href="./signup.html">Request a Unit</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="wrap">
+      <div class="paper page">
+        <h2>Porch Sittin</h2>
+        <p>
+          A daily message—short stories from Pickton Farms.
+          You’ll meet Scott and his wife Stephanie, their black dog Bo, and the occasional wild visitor,
+          all living on 16 acres in the country with neighbors not too far away.
+        </p>
+
+        <div class="split" style="margin-top:14px">
+          <div class="story" aria-live="polite">
+            <h3 id="porch-title">Loading…</h3>
+            <div id="porch-date" class="meta"></div>
+            <div id="porch-body" class="body"></div>
+          </div>
+
+          <div>
+            <div class="card" style="background:#fff; grid-column:unset">
+              <h3>Want today’s story texted to you?</h3>
+              <p>Ask Crusty to set up a daily message automation, and pick a time.</p>
+            </div>
+            <div class="card" style="background:#fff; grid-column:unset">
+              <h3>Merch</h3>
+              <p>Country-rustic shirts, hats, and mugs—see the <a href="./shop.html">shop</a>.</p>
+            </div>
+            <div class="card" style="background:#fff; grid-column:unset">
+              <h3>Storage</h3>
+              <p>Need a unit? <a href="./signup.html"><strong>Request one here</strong></a>.</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="fine" style="margin-top:14px;color:var(--muted)">
+          Tip: to update the story, edit <code>content/porch-sittin.json</code>.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="fine">© <span id="y"></span> Pickton Storage • Porch Sittin</div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  <script src="./assets/js/porch.js"></script>
+</body>
+</html>
