@@ -8,11 +8,11 @@ async function loadPorchSittin() {
     if (!res.ok) throw new Error('Fetch failed');
     const data = await res.json();
 
-    elTitle.textContent = data.title || 'Porch Sittin';
+    elTitle.textContent = data.title || 'Storage Stories';
     elDate.textContent = data.date ? `Daily message • ${data.date}` : 'Daily message';
     elBody.textContent = data.body || '';
   } catch (e) {
-    elTitle.textContent = 'Porch Sittin';
+    elTitle.textContent = 'Storage Stories';
     elDate.textContent = 'Daily message';
     elBody.textContent = 'Could not load today\'s story. Please try again later.';
   }

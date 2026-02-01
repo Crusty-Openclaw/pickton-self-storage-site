@@ -6,7 +6,7 @@ This is a simple static website for **Pickton Storage** (Pickton, TX).
 - `index.html` — Home
 - `units.html` — Unit details + pricing
 - `signup.html` — Signup request form (static + Netlify-compatible)
-- `porch-sittin.html` — “Porch Sittin” daily story page
+- `porch-sittin.html` — “Storage Stories” daily story page
 - `shop.html` — Merch (print-on-demand) placeholder links
 - `contact.html` — Contact + Facebook link
 
