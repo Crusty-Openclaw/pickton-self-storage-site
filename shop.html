@@ -46,8 +46,37 @@
         </p>
 
         <div class="ctaRow">
-          <a class="btn primary" href="https://pickton-storage.myshopify.com" target="_blank" rel="noopener">Visit the Shop</a>
-          <a class="btn" href="https://pickton-storage.myshopify.com/password" target="_blank" rel="noopener">Store status</a>
+          <a class="btn primary" href="https://pickton-storage.myshopify.com" target="_blank" rel="noopener">Shop all merch</a>
+          <a class="btn" href="https://pickton-storage.myshopify.com/collections/all" target="_blank" rel="noopener">View all products</a>
+        </div>
+
+        <div style="margin-top:16px">
+          <h3 class="prodSectionTitle">Featured products</h3>
+          <p class="prodStatus">Browse and tap a product to buy on Shopify.</p>
+
+          <div id="shop-shirts" style="margin-top:14px">
+            <h4 class="prodSectionTitle">Shirts</h4>
+            <p class="prodStatus" data-status></p>
+            <div class="prodGrid" data-grid></div>
+          </div>
+
+          <div id="shop-hats" style="margin-top:14px">
+            <h4 class="prodSectionTitle">Hats</h4>
+            <p class="prodStatus" data-status></p>
+            <div class="prodGrid" data-grid></div>
+          </div>
+
+          <div id="shop-drinkware" style="margin-top:14px">
+            <h4 class="prodSectionTitle">Drinkware</h4>
+            <p class="prodStatus" data-status></p>
+            <div class="prodGrid" data-grid></div>
+          </div>
+
+          <div id="shop-stickers" style="margin-top:14px">
+            <h4 class="prodSectionTitle">Stickers</h4>
+            <p class="prodStatus" data-status></p>
+            <div class="prodGrid" data-grid></div>
+          </div>
         </div>
 
         <div class="kv">
@@ -65,7 +94,7 @@
           </div>
           <div class="tile">
             <strong>Hats</strong>
-            <div><em>Link coming soon</em> — your current hats collection URL returns 404. If you send the working hats collection link, I’ll add it here.</div>
+            <div>Browse: <a href="https://pickton-storage.myshopify.com/collections/frontpage" target="_blank" rel="noopener">Hats</a></div>
           </div>
         </div>
 
@@ -83,6 +112,7 @@
   </footer>
 
   <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  <script src="./assets/js/shopify-products.js"></script>
   <script src="./assets/js/preview-banner.js"></script>
 </body>
 </html>
