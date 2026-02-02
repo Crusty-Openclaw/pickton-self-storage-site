@@ -19,10 +19,8 @@ html,body{margin:0;padding:0}
 body{
   font-family:var(--sans);
   color:var(--ink);
-  /* Background: farmhouse + black dog image with a dark overlay for readability */
-  background:
-    linear-gradient(180deg, rgba(15,13,10,.55) 0%, rgba(15,13,10,.65) 55%, rgba(15,13,10,.75) 100%),
-    url('../img/farmhouse-dog.webp');
+  /* Background: farmhouse + black dog image (no overlay) */
+  background: url('../img/farmhouse-dog.webp');
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
