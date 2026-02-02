@@ -21,7 +21,7 @@ body{
   color:var(--ink);
   /* Background: farmhouse + black dog image with a dark overlay for readability */
   background:
-    linear-gradient(180deg, rgba(15,13,10,.88) 0%, rgba(15,13,10,.92) 55%, rgba(15,13,10,.95) 100%),
+    linear-gradient(180deg, rgba(15,13,10,.55) 0%, rgba(15,13,10,.65) 55%, rgba(15,13,10,.75) 100%),
     url('../img/farmhouse-dog.webp');
   background-size: cover;
   background-position: center top;
