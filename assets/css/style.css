@@ -219,6 +219,32 @@ textarea{min-height:120px;resize:vertical}
 .story .meta{color:var(--muted);font-size:13px;margin-bottom:12px}
 .story .body{color:#2a231b;line-height:1.65;white-space:pre-wrap}
 
+/* Storage Stories “tabs” */
+.tabList{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.tabBtn{
+  text-align:left;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:12px 12px;
+  cursor:pointer;
+}
+
+.tabBtn:hover{filter:brightness(0.99)}
+
+.tabBtn.active{
+  border-color: rgba(47,93,58,.45);
+  box-shadow: 0 6px 14px rgba(47,93,58,.12);
+}
+
+.tabTitle{font-weight:800; font-size:14px; margin-bottom:4px}
+.tabMeta{color:var(--muted); font-size:12px}
+
 @media (max-width: 900px){
   .card{grid-column:span 6}
   .split{grid-template-columns:1fr}

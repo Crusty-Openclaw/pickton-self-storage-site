@@ -39,16 +39,18 @@
 
         <div class="split" style="margin-top:14px">
           <div class="story" aria-live="polite">
-            <h3 id="porch-title">Loading…</h3>
-            <div id="porch-date" class="meta"></div>
-            <div id="porch-body" class="body"></div>
+            <h3 id="story-title">Loading…</h3>
+            <div id="story-date" class="meta"></div>
+            <div id="story-body" class="body"></div>
           </div>
 
           <div>
             <div class="card" style="background:#fff; grid-column:unset">
-              <h3>Want today’s story texted to you?</h3>
-              <p>Ask Crusty to set up a daily message automation, and pick a time.</p>
+              <h3>All entries</h3>
+              <p class="fine" id="story-status" style="margin:0;color:var(--muted)"></p>
+              <div id="story-tabs" class="tabList" role="tablist" aria-label="Storage Stories"></div>
             </div>
+
             <div class="card" style="background:#fff; grid-column:unset">
               <h3>Merch</h3>
               <p>Country-rustic shirts, hats, and mugs—see the <a href="./shop.html">shop</a>.</p>
@@ -74,7 +76,7 @@
   </footer>
 
   <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
-  <script src="./assets/js/porch.js"></script>
+  <script src="./assets/js/stories.js"></script>
   <script src="./assets/js/preview-banner.js"></script>
 </body>
 </html>
