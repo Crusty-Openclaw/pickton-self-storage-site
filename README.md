@@ -17,7 +17,7 @@ This is a simple static website for **Pickton Storage** (Pickton, TX).
    - The form is already marked up for Netlify.
    - Add notification email: **1mscottexas@gmail.com**.
 
-## Daily story updates (Porch Sittin)
+## Daily story updates (Storage Stories)
 Edit:
 - `content/porch-sittin.json`
 
