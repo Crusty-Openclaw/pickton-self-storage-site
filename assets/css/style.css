@@ -113,6 +113,33 @@ a{color:inherit}
 
 .ctaRow{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
 
+.stickyCta{
+  position:fixed;
+  left:0; right:0; bottom:0;
+  padding:10px 12px;
+  background:rgba(15,13,10,.55);
+  backdrop-filter:saturate(140%) blur(10px);
+  border-top:1px solid rgba(255,255,255,.12);
+  z-index:9998;
+}
+
+.stickyCta .inner{
+  max-width:var(--max);
+  margin:0 auto;
+  display:flex;
+  gap:10px;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.stickyCta .msg{color:rgba(245,239,230,.92); font-weight:750; font-size:14px}
+
+.stickyCta .actions{display:flex; gap:10px; align-items:center}
+
+@media (min-width: 900px){
+  .stickyCta{display:none}
+}
+
 .btn{
   display:inline-flex;align-items:center;justify-content:center;
   gap:10px;
