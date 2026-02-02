@@ -1,6 +1,11 @@
 {
   "stories": [
     {
+      "date": "2026-02-02",
+      "title": "Storage Stories: The Key on the Fence Post",
+      "file": "./content/stories/2026-02-02.json"
+    },
+    {
       "date": "2026-02-01",
       "title": "Storage Stories: The Coffee Can Wind Chime",
       "file": "./content/stories/2026-02-01.json"
