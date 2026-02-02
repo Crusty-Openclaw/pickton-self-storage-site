@@ -13,7 +13,7 @@
       <a class="brand" href="./index.html">
         <img class="logo" src="./assets/img/storage-building.svg" alt="" aria-hidden="true" />
         <div>
-          <h1>Pickton Storage</h1>
+          <h1>Pickton Self Storage</h1>
           <small>9274 Farm Road 269 S • Pickton, TX</small>
         </div>
       </a>
@@ -31,7 +31,7 @@
     <div class="wrap">
       <div class="paper page">
         <h2>Request a Storage Unit</h2>
-        <p>Fill this out and we’ll follow up to confirm availability and next steps.</p>
+        <p>Fill this out and we’ll follow up to confirm availability and next steps. (Fields marked required must be filled.)</p>
 
         <p class="notice">
           Prefer Facebook? You can also message us at
@@ -39,8 +39,11 @@
         </p>
 
         <!-- Netlify Forms compatible. If you host on Netlify, submissions can be emailed to the owner. -->
-        <form class="form" name="unit-request" method="POST" data-netlify="true">
+        <form class="form" name="unit-request" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="unit-request" />
+          <p class="full" style="display:none">
+            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+          </p>
 
           <div>
             <label for="name">Full name</label>
