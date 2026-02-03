@@ -1,6 +1,11 @@
 {
   "stories": [
     {
+      "date": "2026-02-03",
+      "title": "Storage Stories: The Lantern in the Barn",
+      "file": "./content/stories/2026-02-03.json"
+    },
+    {
       "date": "2026-02-02",
       "title": "Storage Stories: The Key on the Fence Post",
       "file": "./content/stories/2026-02-02.json"
