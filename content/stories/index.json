@@ -1,6 +1,11 @@
 {
   "stories": [
     {
+      "date": "2026-02-06",
+      "title": "Storage Stories: The Mended Hinge",
+      "file": "./content/stories/2026-02-06.json"
+    },
+    {
       "date": "2026-02-04",
       "title": "Storage Stories: The Wick and the Promise",
       "file": "./content/stories/2026-02-04.json"
