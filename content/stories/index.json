@@ -1,6 +1,11 @@
 {
   "stories": [
     {
+      "date": "2026-02-07",
+      "title": "Storage Stories: The Wire in the Weeds",
+      "file": "./content/stories/2026-02-07.json"
+    },
+    {
       "date": "2026-02-06",
       "title": "Storage Stories: The Mended Hinge",
       "file": "./content/stories/2026-02-06.json"
