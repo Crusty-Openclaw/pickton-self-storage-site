@@ -1,6 +1,11 @@
 {
   "stories": [
     {
+      "date": "2026-02-09",
+      "title": "Storage Stories: The Borrowed Wheelbarrow",
+      "file": "./content/stories/2026-02-09.json"
+    },
+    {
       "date": "2026-02-08",
       "title": "Storage Stories: The Button Jar Blessing",
       "file": "./content/stories/2026-02-08.json"
