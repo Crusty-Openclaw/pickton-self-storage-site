@@ -1,6 +1,16 @@
 {
   "stories": [
     {
+      "date": "2026-02-11",
+      "title": "Storage Stories: The Release and the Red Button",
+      "file": "./content/stories/2026-02-11.json"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Storage Stories: The Supper Table Offer",
+      "file": "./content/stories/2026-02-10.json"
+    },
+    {
       "date": "2026-02-09",
       "title": "Storage Stories: The Borrowed Wheelbarrow",
       "file": "./content/stories/2026-02-09.json"
