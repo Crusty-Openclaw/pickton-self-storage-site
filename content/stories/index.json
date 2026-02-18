@@ -1,6 +1,36 @@
 {
   "stories": [
     {
+      "date": "2026-02-18",
+      "title": "Storage Stories: The Thermos by the Door",
+      "file": "./content/stories/2026-02-18.json"
+    },
+    {
+      "date": "2026-02-17",
+      "title": "Storage Stories: The Pencil and the Prayer",
+      "file": "./content/stories/2026-02-17.json"
+    },
+    {
+      "date": "2026-02-16",
+      "title": "Storage Stories: The Notebook on the Shelf",
+      "file": "./content/stories/2026-02-16.json"
+    },
+    {
+      "date": "2026-02-15",
+      "title": "Storage Stories: The Hayloft Hymn",
+      "file": "./content/stories/2026-02-15.json"
+    },
+    {
+      "date": "2026-02-13",
+      "title": "Storage Stories: The Rope on the Shelf",
+      "file": "./content/stories/2026-02-13.json"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "Storage Stories: The Lending Shelf",
+      "file": "./content/stories/2026-02-12.json"
+    },
+    {
       "date": "2026-02-11",
       "title": "Storage Stories: The Release and the Red Button",
       "file": "./content/stories/2026-02-11.json"
